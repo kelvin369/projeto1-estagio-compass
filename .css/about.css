@@ -8,7 +8,7 @@
 
 header{
     width: 100%;
-    background-color: rgb(83, 83, 83);
+    
 }
 
 .img-1{
@@ -28,14 +28,45 @@ header{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    width: 100%;
-    height: 64px;   
-}
+    top: 64px;
+    height: 64px;
+    width: 1296px;
+}    
 
 .logo{
-    position: relative;
-    width: 40px;
-    height: 40px;
-    left: 0px;
-    top: 0px;
+    width: 159px;
+    padding-right: 293px;
 }
+.logo img{
+    width: 159px; 
+    
+}
+
+.menu-item{
+    font-family: 'Inconsolata', monoespaçado;
+    text-align: center;
+    
+}
+.menu-item a{
+    color: #8b8b8b;
+   text-decoration: none;
+   padding-right: 64px;
+}
+
+.button-1{
+    font-family: 'Inconsolata', monoespaçado;
+    padding-left: 208px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #232340;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
