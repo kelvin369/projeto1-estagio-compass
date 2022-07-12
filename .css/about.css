@@ -1,17 +1,41 @@
 * {
     padding:0;
-    margin:0;
+     margin:0;
     vertical-align:baseline;
     list-style:none;
-    border:0
+    border:0;
+    font-family: 'Roboto', sans-serif;
+    }
+
+@font-face{
+    font-family: "display";
+        src: url("/fonts/SFPRODISPLAYBLACKITALIC.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYBOLD.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYHEAVYITALIC.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYLIGHTITALIC.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYMEDIUM.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYREGULAR.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYTHINITALIC.OTF")
+        format("opentype")
+        url("/fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF")
+        format("opentype")
     }
 
 header{
+    margin: auto;
     width: 100%;
     
 }
 
-.img-1{
+.HERO-HEADER{
     position: absolute;
     background:url(../about.img/HERO\ HEADER\ .png) no-repeat;
     background-size: cover;
@@ -22,51 +46,227 @@ header{
     margin: 0 auto;
 }
 
-.menu{
+.menu-p1{
     position: relative;
+    max-width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     margin: 0 auto;
-    top: 64px;
-    height: 64px;
-    width: 1296px;
+    padding-top: 69px;
+    padding-left: 72px;
 }    
 
 .logo{
     width: 159px;
-    padding-right: 293px;
 }
+
+
+
 .logo img{
-    width: 159px; 
+    width: 100%; 
+}
+
+
+
+.menu-itens{
+    padding-left: 293px;
+    padding-right: 265px;
+    font-family: 'Roboto', sans-serif;
     
 }
 
-.menu-item{
-    font-family: 'Inconsolata', monoespaçado;
-    text-align: center;
-    
-}
-.menu-item a{
-    color: #8b8b8b;
-   text-decoration: none;
-   padding-right: 64px;
-}
-
-.button-1{
-    font-family: 'Inconsolata', monoespaçado;
-    padding-left: 208px;
+.menu-itens a{
     text-decoration: none;
-    text-align: center;
-    border-radius: 15px;
-    background-color: #232340;
+    padding-right: 64px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8B8B8B;    
+}
+
+.menu-itens a:hover{
+    color: #5468E7;
+
+}
+
+.contact-us{
+    background-color:#232340;
+    border-radius: 8px;
     color: #ffffff;
-    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
     padding-left: 44px;
+    padding-top: 20px;
     padding-right: 44px;
     padding-bottom: 20px;
     
+}
+
+.contact-us:active{
+    background-color:#232340;
+}
+.sobre-1{
+    position: relative;
+    padding-top: 238px;
+    padding-left: 135px;
+}
+
+h1{
+    color: #232340;
+    Font-size: 84px;
+    padding-bottom: 40px;
+}
+
+p-1{
+    padding-top: 40px;
+    color: #606060;
+    Font-size: 18px;
+}
+
+.button-2{
+    padding-top: 48px;
+}
+
+.Recent-Work{
+    background-color: #5468E7;
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 44px;
+    padding-top: 20px;
+    padding-right: 44px;
+    padding-bottom: 20px;
     
 }
 
+.scroll-down{
+    align-items: center;
+    display: flex;    
+    width: 158px;
+    height: 48px;
+    left: 135px;
+    top: 896px;
+    padding-top: 110px;
+    color: #8B8B8B;
+    
+}
+
+.scroll-down img{
+    padding-right: 18px;
+    width: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec-2{
+    width: 100%;
+    margin: auto;
+}
+
+.img-2{
+    position: absolute;
+    background:url(../about.img/WHO\ WE\ ARE.png) no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 1710px;
+    left: 0px;
+    top: 1024px;
+    
+    
+}
+
+.menu-p2{
+    position: relative;
+    align-items: top;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 300px;
+    padding-left: 317px;
+    padding-bottom: 861px;
+    
+    
+}
+
+.menu-p2 h1{
+    color:#ffffff;
+    font-size: 64px;
+
+}
+
+.botao{
+    padding-left: 158px;
+    display: flex;
+}
+
+.botao-E{
+    padding-right: 60px;
+}
+
+
+
+
+
+
+.sobre-2{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 343px;
+    
+    
+}
+
+.text-2{
+    display: block;
+    
+}
+.text-2 h2{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.paragrafo-2{
+    padding-top: 40px;
+}
+.text-2 p-2{
+    padding-top: 40px;
+    font-size: 18px;
+    color: #8B8B8B;
+}
+
+
+.primary-1{
+    padding-top: 40px;
+}
+.primary{
+    background-color: #5468E7;
+    border-radius: 8px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 36px;
+    padding-top: 20px;
+    padding-right: 36px;
+    padding-bottom: 20px;
+    
+}
+
+.number-2{
+    align-items: center;
+    padding-left: 179px;
+}
 
